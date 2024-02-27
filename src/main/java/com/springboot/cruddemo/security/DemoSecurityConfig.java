@@ -22,6 +22,7 @@ public class DemoSecurityConfig {
     public UserDetailsManager userDetailsManager(DataSource dataSource) {
         JdbcUserDetailsManager jdbcUserDetailsManager = new JdbcUserDetailsManager(dataSource);
 
+     // For Custom Table
         //Define query to retrieve a user by username
 
         jdbcUserDetailsManager.setUsersByUsernameQuery(
