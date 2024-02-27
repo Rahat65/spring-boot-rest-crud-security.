@@ -11,5 +11,6 @@
 ## How to run:
 - Clone this project
 - Run the project using Intellij
+- Run CruddemoApplication class
   
 
